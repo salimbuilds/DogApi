@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API Practice</title>
+<style>
+  body { font-family: Arial, sans-serif; text-align: center; padding: 40px 16px; background: #f4f6f8; color: #222; }
+  button { padding: 12px 22px; font-size: 1rem; border: none; border-radius: 8px; background: #2563eb; color: #fff; cursor: pointer; }
+  button:disabled { background: #94a3b8; cursor: wait; }
+  #status { margin: 20px 0; min-height: 1.4em; }
+  #status.error { color: #b91c1c; font-weight: bold; }
+  img { max-width: 100%; max-height: 380px; border-radius: 12px; }
+</style>
+<script src="index.js" defer></script>
+</head>
+<body>
+  <h1>Random Dog Picture</h1>
+  <button id="btn">Get a dog</button>
+  <p id="status"></p>
+  <img id="dog" alt="A random dog" hidden>
+</body>
+</html>
