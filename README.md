@@ -34,4 +34,4 @@ No install or build step is needed.
 
 ## Live demo
 
-[View the live site](https://your-salimbuilds.github.io/DogApi/)
+[View the live site](https://salimbuilds.github.io/DogApi/)
